@@ -14,17 +14,12 @@ waterConsumptionReport
 │   └───Output
 │       │   out.csv
 │   │   
-│   └───data
-│       │   sample.json
 │   │   __init__.py
 │   │   test_main.py
 │   
 └───coverage
     │   index.html
     │   style.css
-|  
-└───data
-    │   readings.json
 |
 │   main.py
 │   requirement.txt    
@@ -58,6 +53,8 @@ $ or project folder path> <<your virtual environment name>>\Scripts\activate
 (<<virtual environment>>)$ python -m unittest Test/test_main.py
 ```
 7. Code covereage report for the program is shown under coverage directory.
+
+Note: Data files removed as it violates company's policy to share it on github
 
 
 
